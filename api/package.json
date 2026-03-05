@@ -1,0 +1,27 @@
+{
+  "name": "cancel-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rimraf dist",
+    "start": "func start",
+    "dev": "tsx watch src/index.ts",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.5.0",
+    "@azure/storage-blob": "^12.25.0",
+    "cors": "^2.8.5",
+    "csv-stringify": "^6.5.2",
+    "dotenv": "^16.4.5",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "rimraf": "^6.0.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
