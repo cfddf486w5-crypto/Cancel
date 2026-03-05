@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "JWT_SECRET": "dev-secret",
+    "POLL_INTERVAL_SECONDS": "20",
+    "STORAGE_MODE": "mock",
+    "TEAMS_WEBHOOK_URL": "",
+    "SENDGRID_API_KEY": "",
+    "EMAIL_TO_DEFAULT": ""
+  }
+}

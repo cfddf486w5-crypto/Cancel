@@ -1,0 +1,11 @@
+{
+  "name": "cancel-app",
+  "private": true,
+  "workspaces": ["web", "api"],
+  "scripts": {
+    "install:all": "npm install --workspaces",
+    "dev:web": "npm run dev -w web",
+    "dev:api": "npm run dev -w api",
+    "build": "npm run build -w api && npm run build -w web"
+  }
+}
